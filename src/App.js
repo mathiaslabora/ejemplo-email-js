@@ -4,8 +4,7 @@ import { FormEmail } from './components/Form-email';
 function App() {
   return (
     <div className="container">
-      <FormEmail/>
-      
+      <FormEmail />
     </div>
   );
 }

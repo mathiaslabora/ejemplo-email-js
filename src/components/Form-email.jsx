@@ -7,6 +7,7 @@ export const FormEmail = () => {
         e.preventDefault();
         emailjs.sendForm('service_u7yc38v', 'template_51cebmm', e.target, 'Q_h_ZoRSTV-YaacCD')
         .then((result) => {
+            e.target.reset();
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
